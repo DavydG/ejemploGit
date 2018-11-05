@@ -16,6 +16,9 @@ and open the template in the editor.
             if (($x+$y)%2 == 0) {
                 echo 'EL RESULTADO ES POSITIVO';
                 echo $x.'+'.$y.'='.($x+$y);
+            }else { /* HE AÑADIDO ESTA LINEA */
+                echo 'EL RESULTADO ES NEGATIVO';
+                echo $x.'+'.$y.'='.($x+$y);
             }
         ?>
     </body>
